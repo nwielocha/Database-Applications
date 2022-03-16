@@ -96,6 +96,17 @@ print(is_permutation("napis", "napisal"))
 #
 # print(titles5)
 
+# Zad. 15 Dana jest krotka
+tuple3 = (1, 2, 3, 4)
+# Czy potrafisz ją "rozpakować"?
+tuple3 = (1, 2, 3, 4)
+# Twój kod
+a, b, c, d = tuple3
+print(a)  # powinno wyświetlić 1
+print(b)  # powinno wyświetlić 2
+print(c)  # powinno wyświetlić 3
+print(d)  # powinno wyświetlić 4
+
 # Zad. 16 Dane są krotki
 tuple1 = (1, 2, 3, 4)
 tuple2 = (5, 6, 7, 8)
@@ -106,9 +117,7 @@ tuple1, tuple2 = tuple2, tuple1
 print(tuple1)
 print(tuple2)
 
-
 # Zad. 17 Dana jest krotka
 aTuple = (1, 4, 3, 4, 5, 1, 6, 1)
 # Ile razy "1" występuje w krotce?
 print(aTuple.count(1))
-
