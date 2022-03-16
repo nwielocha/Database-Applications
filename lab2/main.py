@@ -96,10 +96,14 @@ print(is_permutation("napis", "napisal"))
 #
 # print(titles5)
 
+# Zad.14 Dana jest krotka
+tuple12 = ("Apple", [10, 20, 30], (15, 25, 35))
+# Jak dosatć się do "20"? Wypisz na ekranie tylko "20" spośród całej krotki.
+print(tuple12[1][1])
+
 # Zad. 15 Dana jest krotka
 tuple3 = (1, 2, 3, 4)
 # Czy potrafisz ją "rozpakować"?
-tuple3 = (1, 2, 3, 4)
 # Twój kod
 a, b, c, d = tuple3
 print(a)  # powinno wyświetlić 1
