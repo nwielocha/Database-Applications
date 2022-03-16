@@ -102,6 +102,9 @@ tuple2 = (5, 6, 7, 8)
 # Czy potrafisz je zamienić? Spodziewany wynik:
 # tuple1 = (5,6,7,8)
 # tuple2 = (1,2,3,4)
+tuple1, tuple2 = tuple2, tuple1
+print(tuple1)
+print(tuple2)
 
 
 # Zad. 17 Dana jest krotka
