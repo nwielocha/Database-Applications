@@ -122,6 +122,16 @@ def replace(d, v, e):
 replace(d, v, e)
 print(d)
 
+# Zad. 5 Napisz funkcję o nazwie invert. Jako parametry ma pobierać słownik d. Funkcja zwraca
+# nowy słownik dInv. Kluczami dInv są unikalne wartości zawarte w d. Wartość odnosząca
+# się do klucza w dInv jest listą. Lista zawiera wszystkie klucze w d, które są powiązane
+# z tymi wartościami. np.
+# invert({1:2, 3:4, 5:6}) zwraca {2:[1], 4:[3], 6:[5]}
+# invert({1:1, 3:1, 5:1}) zwraca {1:[1,3,5]}
+print("Zad. 5")
+s1 = {1: 2, 3: 4, 5: 6}
+s2 = {1: 1, 3: 1, 5: 1}
+
 # Zad.10 L- lista zawierająca liczby, ułożone w porządku niemalejącym. Czy liczba x należy do
 # listy? Rozwiąż zadanie za pomocą przeszukiwania binarnego.
 print("Zad. 10")
