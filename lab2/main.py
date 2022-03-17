@@ -103,8 +103,36 @@ print("Zad. 3")
 #
 # print(titles5)
 
+# Zad.10 L- lista zawierająca liczby, ułożone w porządku niemalejącym. Czy liczba x należy do
+# listy? Rozwiąż zadanie za pomocą przeszukiwania binarnego.
+print("Zad. 10")
+l10 = [1, 2, 3, 4, 5]
+x = 0
+
+
+def binary_search(t, x):
+    l = 0
+    r = len(t) - 1
+    while l <= r:
+        s = (l + r) // 2
+        if t[s] == x:
+            return s
+        elif t[s] > x:
+            r = s - 1
+        else:
+            l = s + 1
+    return -1
+
+
+print(binary_search(l10, x))
+if binary_search(l10, x) != -1:
+    print("Tak")
+else:
+    print("Nie")
+
 # Zad11. Mając dane trzy posortowane listy L1, L2, L3 wypisz elementy. które należą do wszystkich
 # list jednocześnie. Nie korzystaj z dodatkowych list, ani innych struktur danych.
+print("Zad. 11")
 l1 = [1, 2, 3, 4]
 l2 = [3, 4, 5, 6]
 l3 = [3, 4, 8, 9]
