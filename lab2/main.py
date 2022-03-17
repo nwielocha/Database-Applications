@@ -103,6 +103,25 @@ print("Zad. 3")
 #
 # print(titles5)
 
+# Zad. 4 Napisz funkcję o nazwie replace. Jako parametry ma pobieć słownik d oraz dwie
+# wartości v i e. Funkcja nie zwraca niczego. Funkcja zamienia d w taki sposób, że
+# wszystkie wartości v zawarte w d zostajż zastąpione przez wartść e. NP
+# replace({1:2, 3:4, 4:2},2,7) zmienia d na {1:7, 3:4, 4:7}
+print("Zad. 4")
+d = {1: 2, 3: 4, 4: 2}  # 1, 3, 4 -> klucze; 2, 4, 2 -> wartosci
+v = 2
+e = 7
+
+
+def replace(d, v, e):
+    for key1 in d.keys():
+        if d[key1] == v:
+            d[key1] = e
+
+
+replace(d, v, e)
+print(d)
+
 # Zad.10 L- lista zawierająca liczby, ułożone w porządku niemalejącym. Czy liczba x należy do
 # listy? Rozwiąż zadanie za pomocą przeszukiwania binarnego.
 print("Zad. 10")
