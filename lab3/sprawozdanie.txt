@@ -1,0 +1,9 @@
+Stworzyłem plik index.html i style.css oraz folder "images", w którym umieszczam
+zdjęcia. Następnie zrobiłem MENU z kilkoma zakładkami. Ustawiłem tło, które nie 
+chce się wyświetlić na Sigmie. Sprawdzę prawa dostępu, tam może być problem.
+
+Stworzyłem sekcję header, do której wstawiłem pudełko z tekstem, w którym 
+pozmieniałem rozmiary czcionek oraz ich kolory. Etapy konkursu umieściłem 
+jako listę.
+
+
