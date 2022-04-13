@@ -80,3 +80,15 @@ a.tilelink {
     width: 230px;
     height: 142px;
 }
+
+td, th { border: 1px solid black; }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
